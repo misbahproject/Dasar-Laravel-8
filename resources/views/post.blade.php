@@ -4,7 +4,7 @@
 
         <div class="container">
                 <div class="row justify-content-center mb-5">
-                      <div class="col-md-8">
+                <div class="col-md-8">
                         <h1 class="mb-3">{{ $post->title }}</h1>
 
                         <p>By. <a href="/posts?author={{ $post->user->username }}" class="text-decoration-none">{{ $post->user->name }}</a> in <a
@@ -18,7 +18,7 @@
                         </article>
 
                         <a href="/posts" class="d-block mt-3 text-decoration-none">Back to Posts</a> 
-                      </div>
+                </div>
                 </div>
         </div>
 

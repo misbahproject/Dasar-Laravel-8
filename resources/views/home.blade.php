@@ -13,4 +13,5 @@
     </div>
 
     <div class="b-example-divider"></div>
-@endsection
+</div>
+            
